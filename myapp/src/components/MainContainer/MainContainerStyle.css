@@ -1,0 +1,29 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.flex-items {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: aquamarine;
+    padding: 15px;
+    box-shadow: 3px 3px 2px 0px rgba(128, 0, 0, 1);
+    border-radius: 5px;     
+    border: 0px solid #800000;
+  }
+
+  .generic-input {
+    padding-bottom: 10px;
+  }
+
+  h2{
+    align-self: center;
+  }
